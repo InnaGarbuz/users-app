@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manager app</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <script src="common.js" defer></script>
+</head>
+<body>
+
+  <div class="container" data-container>
+
+    <section id="login-section" class="login-section">
+      <h1 class="title">Users App</h1>
+
+      <div class="form-block glass">
+        <form action="" data-user-form>
+          <div class="control-field">
+            <label for="nameId" class="form-label">User name</label>
+            <input type="text" class="form-control" id="nameId"
+                   name="userName" maxlength="20" minlength="2" required>
+          </div>
+          <div class="control-field">
+            <label for="citiId" class="form-label">City</label>
+            <input type="text" class="form-control" id="citiId"
+                   name="userCity"  maxlength="20" minlength="2" required>
+          </div>
+          <div class="control-field">
+            <label for="emailId" class="form-label">User email</label>
+            <input type="email" class="form-control form-contol--email" id="emailId" name="userEmail" required>
+          </div>
+          <div class="control-field">
+            <label for="imageId" class="form-label">User image</label>
+            <div class="select-wrapper">
+              <select name="userImageUrl" class="form-control form-control--images" id="imageId">
+                <option value="https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-174669.jpg?semt=ais_rp_progressive&w=740&q=80">Man</option>
+                <option value="https://t4.ftcdn.net/jpg/11/66/06/77/360_F_1166067709_2SooAuPWXp20XkGev7oOT7nuK1VThCsN.jpg">Woman</option>
+                <option value="https://static.vecteezy.com/system/resources/thumbnails/004/899/680/small/beautiful-blonde-woman-with-makeup-avatar-for-a-beauty-salon-illustration-in-the-cartoon-style-vector.jpg">Woman 2</option>
+                <option value="https://img.freepik.com/free-vector/smiling-blonde-boy-hoodie_1308-174731.jpg?semt=ais_rp_progressive&w=740&q=80">Man 2</option>
+              </select>
+            </div>
+          </div>
+
+          <button class="btn-submit">Create new user</button>
+        </form>
+
+      </div>
+    </section>
+
+    <div id="users-container" class="users-container" data-users-container></div>
+
+    <dialog class="edit-form-dialog" data-edit-user-form-dialog></dialog>
+
+  </div>
+
+
+</body>
+</html>

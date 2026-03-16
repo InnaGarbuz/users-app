@@ -1,0 +1,98 @@
+/* ================================
+   CSS VARIABLES
+================================ */
+
+:root {
+    /* =============================
+       PRIMARY COLORS
+    ============================= */
+    --color-primary: #6c5ce7;
+    --color-primary-light: #b784f6;
+    --color-primary-dark: #7c3aed;
+    --color-accent: #8618f3;
+
+    /* =============================
+       NEUTRAL COLORS
+    ============================= */
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-gray-100: #f3f4f6;
+    --color-gray-300: #d1d5db;
+    --color-gray-500: #6b7280;
+    --color-gray-600: #555555;
+    --color-gray-900: #111827;
+
+    /* =============================
+       SEMANTIC COLORS
+    ============================= */
+    --color-success: #16a34a;
+    --color-success-light: #7df1a7;
+    --color-warning: #f59e0b;
+    --color-error: #dc2626;
+    --color-danger: #e90606;
+    --color-danger-light: #ff7d7d;
+    --color-danger-dark: #a80e0e;
+
+    /* =============================
+       BUTTON GRADIENTS
+    ============================= */
+    /* Submit Button */
+    --btn-gradient-start: #7f73ff;
+    --btn-gradient-end: #604ef4;
+    --btn-gradient-hover-start: #9f49f8;
+    --btn-gradient-hover-end: #8525ed;
+
+    /* Primary Button */
+    --btn-primary-gradient-start: #c073ff;
+    --btn-primary-gradient-end: #a055f1;
+    --btn-primary-gradient-hover-start: #a862f4;
+    --btn-primary-gradient-hover-end: #8525ed;
+
+    /* Delete Button */
+    --btn-delete-gradient-start: #ff7d7d;
+    --btn-delete-gradient-end: #fd4c4c;
+    --btn-delete-gradient-hover-start: #ec5959;
+    --btn-delete-gradient-hover-end: #a80e0e;
+
+    /* =============================
+       BACKGROUND & TEXT
+    ============================= */
+    --color-background: var(--color-white);
+    --color-text: var(--color-gray-900);
+    --text-label-color: #ffffff;
+
+    /* =============================
+       GRADIENT COLORS
+    ============================= */
+    --gradient-color-1: #f9a6e7;
+    --gradient-color-2: #f79eea;
+    --gradient-color-3: #f396ed;
+    --gradient-color-4: #ef8ef1;
+    --gradient-color-5: #e987f6;
+    --gradient-color-6: #da8bfa;
+    --gradient-color-7: #cb8efd;
+    --gradient-color-8: #bb91ff;
+    --gradient-color-9: #a29cff;
+    --gradient-color-10: #8ba5ff;
+    --gradient-color-11: #77acff;
+    --gradient-color-12: #68b2fb;
+
+    /* =============================
+       BACKGROUND GRADIENT
+    ============================= */
+    --background-gradient: linear-gradient(
+        to right top,
+        var(--gradient-color-1),
+        var(--gradient-color-2),
+        var(--gradient-color-3),
+        var(--gradient-color-4),
+        var(--gradient-color-5),
+        var(--gradient-color-6),
+        var(--gradient-color-7),
+        var(--gradient-color-8),
+        var(--gradient-color-9),
+        var(--gradient-color-10),
+        var(--gradient-color-11),
+        var(--gradient-color-12)
+    );
+}
